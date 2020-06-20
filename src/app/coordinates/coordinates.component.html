@@ -1,0 +1,15 @@
+<form #registerForm="ngForm" (ngSubmit)="search()" style="align-items: center;">
+  <br/>
+  <br/>
+
+  <div class="form-group text-center" style="width: 300px;align-items: center;">
+    <input type="text" class="form-control" required name="location" [(ngModel)]="model" placeholder="Location">
+  </div>
+
+  <div class="form-group">
+    <button class="btn btn-success" type="submit">Search</button>
+  </div>
+
+  <div class="form-group"></div>
+  
+</form>
